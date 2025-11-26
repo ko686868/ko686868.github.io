@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
+    <header>
+      <nav aria-label="メインナビゲーション">
+        <div class="container">
+          <h1 class="logo">Portfolio</h1>
+          <ul class="nav-menu" role="list">
+            <li role="listitem"><a href="#about">自己紹介</a></li>
+            <li role="listitem"><a href="#projects">プロジェクト</a></li>
+            <li role="listitem"><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- 自己紹介セクション -->
+      <section
+        id="about"
+        class="section about-section"
+        aria-labelledby="about-title"
+      >
+        <div class="container">
+          <div class="about-header">
+            <h2 id="about-title" class="section-title">自己紹介</h2>
+            <div class="title-decoration"></div>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <div class="intro-card">
+                <div class="intro-icon">👋</div>
+                <div class="intro-content">
+                  <h3>主な業務内容</h3>
+                  <p>
+                    主に大学向けの研究業績管理システムの開発を担当しております。
+                    大学機関が研究活動を効率的に管理し、業績を適切に評価・公開できる
+                    システムの設計・開発・保守まで一貫して手がけております。
+                  </p>
+                </div>
+              </div>
+              <h3 class="achievements-title">実績・経験</h3>
+              <ul class="achievements" role="list">
+                <li role="listitem">
+                  <span
+                    class="achievement-icon"
+                    role="img"
+                    aria-label="システム設計・開発"
+                    >📐</span
+                  >
+                  <div class="achievement-content">
+                    <strong>システム設計・開発</strong>
+                    <p>要件定義から設計、開発、テストまで一貫した開発プロセスの実践経験</p>
+                  </div>
+                </li>
+                <li role="listitem">
+                  <span class="achievement-icon" role="img" aria-label="チーム開発"
+                    >👥</span
+                  >
+                  <div class="achievement-content">
+                    <strong>チーム開発</strong>
+                    <p>アジャイル開発手法を用いたチームでの協業経験とコードレビュー実践</p>
+                  </div>
+                </li>
+                <li role="listitem">
+                  <span
+                    class="achievement-icon"
+                    role="img"
+                    aria-label="品質管理"
+                    >✅</span
+                  >
+                  <div class="achievement-content">
+                    <strong>品質管理</strong>
+                    <p>テスト設計・実施、バグ修正、コード品質向上への取り組み</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- プロジェクト紹介セクション -->
+      <section
+        id="projects"
+        class="section projects-section"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <h2 id="projects-title" class="section-title">プロジェクト紹介</h2>
+          <div
+            class="projects-grid"
+            role="region"
+            aria-label="プロジェクト一覧"
+          >
+            <article class="project-card">
+              <span
+                class="project-icon"
+                role="img"
+                aria-label="業績公開システム"
+                >📊</span
+              >
+              <h3>A大学業績公開システム</h3>
+              <p>
+                研究業績の公開・管理を効率化するWebアプリケーション。
+                教員の研究実績を自動集計し、学内外に向けて公開できるシステムを開発。
+              </p>
+              <div class="project-details">
+                <span class="tag">Web開発</span>
+                <span class="tag">データベース設計</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span
+                class="project-icon"
+                role="img"
+                aria-label="研究費管理システム"
+                >💰</span
+              >
+              <h3>B大学研究費管理システム</h3>
+              <p>
+                研究費の申請・承認・執行管理を一元化する統合管理システム。
+                予算管理から経費精算まで、研究活動を支援する機能を実装。
+              </p>
+              <div class="project-details">
+                <span class="tag">システム統合</span>
+                <span class="tag">ワークフロー設計</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span
+                class="project-icon"
+                role="img"
+                aria-label="業績評価システム"
+                >📈</span
+              >
+              <h3>C大学業績評価システム</h3>
+              <p>
+                教員の研究業績を多角的に評価するための評価システム。
+                評価基準の設定から評価結果の分析まで、公平かつ透明性の高い評価を実現。
+              </p>
+              <div class="project-details">
+                <span class="tag">評価システム</span>
+                <span class="tag">データ分析</span>
+              </div>
+            </article>
+            <article class="project-card">
+              <span
+                class="project-icon"
+                role="img"
+                aria-label="業績公開システム"
+                >💰</span
+              >
+              <h3>D大学研究業績公開システム</h3>
+              <p>
+                研究業績の公開・管理を効率化するWebアプリケーション。
+                教員の研究実績を自動集計し、学内外に向けて公開できるシステムを開発。
+              </p>
+              <div class="project-details">
+                <span class="tag">Web開発</span>
+                <span class="tag">データベース設計</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- お問い合わせフォームセクション -->
+      <section
+        id="contact"
+        class="section contact-section"
+        aria-labelledby="contact-title"
+      >
+        <div class="container">
+          <h2 id="contact-title" class="section-title">お問い合わせ</h2>
+          <div class="contact-content">
+            <p class="contact-description">
+              プロジェクトのご相談やお問い合わせがございましたら、
+              お気軽に以下のフォームよりご連絡ください。
+            </p>
+            <form
+              id="contactForm"
+              class="contact-form"
+              aria-label="お問い合わせフォーム"
+              novalidate
+            >
+              <div class="form-group">
+                <label for="name"
+                  >名前
+                  <span class="required" aria-label="必須項目">*</span></label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  aria-describedby="name-error name-help"
+                  aria-required="true"
+                  autocomplete="name"
+                  aria-invalid="false"
+                />
+                <span id="name-help" class="sr-only"
+                  >お名前を入力してください</span
+                >
+                <span
+                  id="name-error"
+                  class="field-error"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email"
+                  >メールアドレス
+                  <span class="required" aria-label="必須項目">*</span></label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  aria-describedby="email-error email-help"
+                  aria-required="true"
+                  autocomplete="email"
+                  aria-invalid="false"
+                />
+                <span id="email-help" class="sr-only"
+                  >メールアドレスを入力してください</span
+                >
+                <span
+                  id="email-error"
+                  class="field-error"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  >メッセージ
+                  <span class="required" aria-label="必須項目">*</span></label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                  aria-describedby="message-error message-help"
+                  aria-required="true"
+                  aria-invalid="false"
+                ></textarea>
+                <span id="message-help" class="sr-only"
+                  >メッセージを入力してください</span
+                >
+                <span
+                  id="message-error"
+                  class="field-error"
+                  role="alert"
+                  aria-live="polite"
+                ></span>
+              </div>
+
+              <button
+                type="submit"
+                class="submit-btn"
+                aria-describedby="formMessage"
+              >
+                送信
+              </button>
+              <div
+                id="formMessage"
+                class="form-message"
+                role="alert"
+                aria-live="polite"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
